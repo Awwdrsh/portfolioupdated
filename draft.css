@@ -436,7 +436,7 @@ form #submit:hover{
 }
 footer {
     text-align: center;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
     box-shadow: 0 0 10px rgb(255, 255, 255);
