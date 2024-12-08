@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 html{
     scroll-behavior: smooth;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -260,22 +259,10 @@ transition: .3s;
     width: 100%;
  
 }
-.home-imgHover::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 92%;
-    background: #11110F;
-    animation: showRight 1s ease forwards;
-    animation-delay: 1s; 
-    z-index: 100;
-}
 #arrow {
     color: #ffffff;
     position: relative;
-    bottom: 130px;
+    bottom: 150px;
     left: 50%;
 }
 #arrow:hover {
@@ -298,7 +285,7 @@ transition: .3s;
     background: url(i.png) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 110vh;
+    height: 150vh;
     padding: 0 10%;
 }
 #education {
@@ -408,7 +395,7 @@ table, th, td {
     left: 37%;
     text-shadow: 0 0 10px rgb(255, 255, 255);
 }
-#form, #name {
+#form, label[for="name"] {
     text-align: left;
 }
 #form, input {
