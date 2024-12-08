@@ -1,0 +1,207 @@
+@media (max-width:900px) and (min-width: 300px) {
+#pic{
+        max-height: 25px;
+        border-radius: 150px;
+        border: 2px solid #fff;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+        position: absolute;
+        left: 15px;
+        top: 5px;
+    }
+    .logo{
+    position: relative;
+    padding: 10px 10px 10px 50px ;
+    font-size: 10px;
+    color: #959292;
+    text-decoration: none;
+    font-weight: 5;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+} 
+.bar a {
+    font-size: 7px;
+    color: #959292;
+text-decoration: none;
+font-weight: 50;
+margin-left: 30px;
+transition: .3s;
+}
+.bar a:hover,
+.bar a.active{
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.home{
+    background: url(i.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+.home-content {
+    max-width: 300px;
+ }
+ .home-content h1 {
+     position: relative;
+     font-size: 30px;
+     font-weight: 500;
+     line-height: 1.2;
+     text-shadow: 0 0 10px rgb(255, 255, 255);
+ }
+.home-content h2 {
+    position: relative;
+    font-size: 25px;
+    font-weight: 400;
+    color: #9fa3a5;
+}
+.home-content p{
+    position: relative;
+    font-size: 13px;
+    margin: 20px 0 40px;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.home-content .btn-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    height: 50px;
+}
+.btn-box a{
+    width: 100px;
+    height: 100%;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #11110F;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.home-sci {
+    width: 130px;
+}
+.home-sci a {
+    width: 30px;
+    height: 30px;
+}
+#second {
+    height: 180vh;
+}
+#education {
+    position: relative;
+    text-align: left;
+   font-size: 20px;
+   font-weight: 400;
+}
+table {
+    position: relative;
+    left: 0;
+    font-size: 8px;
+}
+table, th, td {
+    text-align: center;
+    align-items: left;
+    max-width: 300px;
+  }
+  #interest {
+    text-align: left;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+}
+#ai {
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+#web {
+    margin: 10px;
+    padding: 10px;
+    width:auto;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    font-size: 10px;
+    left: 0;
+}
+#machine {
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    font-size: 10px;
+}
+#ball {
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    font-size: 10px;
+}
+#travel {
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    font-size: 10px;
+}
+#reading {
+    margin: 1px;
+    padding: 10px;
+    width: auto;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    font-size: 10px;
+}
+#form{
+    width: auto;
+    padding: 10px;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    left: 0;
+    font-size: 10px;
+}
+#form, input {
+    width: auto;
+}
+form #submit{
+    width: auto;
+    padding: 5px;
+}
+footer {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}
+footer a {
+    position: relative;
+    height: auto;
+    font-size: 15px;
+    padding: 5px;
+    width: auto;
+}
+}
